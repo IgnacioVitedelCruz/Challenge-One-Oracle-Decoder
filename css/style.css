@@ -6,7 +6,7 @@ main{
     background: url(../img/background.jpg) no-repeat center center fixed; 
     background-size: 100% 100%;
     flex-direction: column;
-    height: 850px;
+    height: 950px;
 }
 header{
     background: linear-gradient(to right, rgba(0, 0, 0, .8),rgba(8, 4, 12, .8));
@@ -76,8 +76,11 @@ header{
 #mensaje, #resultado{
     border: solid #a5d3ae 10px;
     border-radius: 30px;
-    background: rgb(8, 4, 2,0.7);
+    background: url(../img/background-textarea.gif) no-repeat center center; 
+    background-size: 100% 100%;
+    opacity: 0.7;
     color:white;
+    font-weight: bold;
     padding: 20px;
 }
 .boton-cifrar{
@@ -130,8 +133,25 @@ header{
 .alert {
     margin-top:20px;
 }
-
-
+.titulo{
+    position: fixed;
+    top: 80%; left:38%;
+}
+#Texto-info{
+    color: white;
+}
+h2{
+    font-size: 25px;
+    color: white;
+}
+.indicaciones{
+    position: fixed;
+    top: 65%; left:12%;
+}
+h3{
+    font-size: 10px;
+    color: white;
+}
 @media screen and (max-width:680px) {
 
     .texto-animado > div span{
@@ -155,5 +175,6 @@ header{
         height: 520px;
     }
 }
+
 
 
