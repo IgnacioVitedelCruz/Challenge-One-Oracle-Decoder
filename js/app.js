@@ -141,6 +141,8 @@ var btncopiar = document.querySelector("#btn-copiar");
 btncopiar.addEventListener("click",copiar);
 
 new TextoAnimado('titulo', 'encabezado');
+new TextoAnimado('Texto-info', 'Texto-info');
+
 
 
 
